@@ -2,17 +2,18 @@
   <div class="resume">
     <v-container>
       <v-row class="resume-content">
-        <v-col class="headline" md="7" sm="7">
-          <h1 class="mb-6">Hello,</h1>
-          <p>Thank you for stopping by. I'm always looking to meet local professionals, or talk about new oppritunities.</p>
-          <p>I've spent the last two years transitioning from design to development, learning and applying myself to new challenges every day.</p>
-          <p>I'm excited and looking to excell at what ever next comes my way.</p>
-          <p>~ Jeremy King</p>
+        <v-col md="7" sm="7">
+          <div class="headline">
+            <h1 class="mb-6">Hello,</h1>
+            <p>Thank you for stopping by. I'm always looking to meet local professionals, or talk about new opportunities. I've spent the last few years transitioning from design to development, learning, and applying myself to new challenges every day. I'm excited and looking to excel at whatever next comes my way.</p>
+            <p>~ Jeremy King</p>
+          </div>
           <div class="pt-6">
             <h3 class="mb-2">Work History:</h3>
+            <v-divider class="pb-3"></v-divider>
             <div class="pb-4" :key="i" v-for="(work, i) in work">
               <div class="font-weight-bold">{{work.position}}</div>
-              <v-divider></v-divider>
+              <!-- <v-divider></v-divider> -->
               <div class="d-flex flex-wrap">
                 <div class="pr-2 body-2">{{work.place}}</div>
                 <div class="pr-2 body-2">
@@ -24,6 +25,7 @@
                   {{work.start}} to {{work.end}}
                 </div>
               </div>
+              <v-divider></v-divider>
             </div>
           </div>
         </v-col>
@@ -36,10 +38,10 @@
           </div>
           <div class="pt-6">
             <h3 class="mb-2">My Education:</h3>
+            <v-divider></v-divider>
             <div :key="i" v-for="(edu, i) in education">
-              <div class="py-2 font-weight-bold">{{edu.place}}</div>
-              <v-divider></v-divider>
-              <div class="py-2">
+              <div class="pt-2 font-weight-bold">{{edu.place}}</div>
+              <div class="pb-2">
                 <div>
                   <span class="font-italic">
                     Graduated in {{edu.grad}} with a
@@ -47,6 +49,7 @@
                   </span>
                 </div>
               </div>
+              <v-divider></v-divider>
             </div>
           </div>
         </v-col>
@@ -62,8 +65,10 @@ export default {
       "HTML/CSS",
       "Vue.js",
       "React",
+      "Hanging Out",
       "WordPress",
       "Javascript",
+      "Video Games",
       "Node/Express",
       "GraphQL",
       "MongoDB",
@@ -74,10 +79,12 @@ export default {
       "Visual Studio Code",
       "NPM",
       "ES6",
+      "Board Games",
       "Shopify",
       "Liquid",
       "Jekyll",
       "UI/UX",
+      "PC Building",
       "Adobe Creative Suite",
       "Wireframing",
       "Project Outlining",

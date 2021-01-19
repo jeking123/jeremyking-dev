@@ -1,15 +1,15 @@
 <template>
   <div>
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer v-model="drawer" app width="300px">
       <h3 block class="text-center pt-5 pb-10">Jeremy King</h3>
       <v-spacer></v-spacer>
       <div class="d-flex justify-center pb-8">
         <v-img alt="jeremy" src="../assets/Jeremy-avatar-2.png" max-width="150" />
       </div>
       <v-spacer></v-spacer>
-      <v-btn block text to="/">home</v-btn>
-      <v-btn block text to="/portfolio">portfolio</v-btn>
-      <v-btn block text to="/resume">resume</v-btn>
+      <v-btn block text to="/" @click="drawer = false">home</v-btn>
+      <v-btn block text to="/portfolio" @click="drawer = false">portfolio</v-btn>
+      <v-btn block text to="/resume" @click="drawer = false">resume</v-btn>
       <v-spacer></v-spacer>
       <v-list disabled>
         <!-- <v-subheader>info</v-subheader> -->
@@ -26,7 +26,9 @@
     <v-container fluid>
       <v-toolbar flat app>
         <v-toolbar-title class="d-flex align-center">
-          <img to="/" src="../assets/logo.svg" width="40px" />
+          <a href="/">
+            <img src="../assets/logo.svg" width="40px" />
+          </a>
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-side-icon>
@@ -47,7 +49,7 @@ export default {
     info: [
       {
         icon: "mdi-email",
-        text: "info@jeremyking.dev"
+        text: "jeremykingdesign@gmail.com"
       },
       {
         icon: "mdi-github",
