@@ -72,7 +72,7 @@ import scannedMedia from "../assets/portfolio/scannedmedia.jpg";
 import flootie from "../assets/portfolio/flootie.jpg";
 import crowncraft from "../assets/portfolio/crowncraft.jpg";
 import idlekingdoms from "../assets/portfolio/idle-kingdoms.jpg";
-import desertjewels from "../assets/portfolio/desertjewelsnursery.jpg";
+// import desertjewels from "../assets/portfolio/desertjewelsnursery.jpg";
 import quotes from "../assets/portfolio/quote-deck.jpg";
 import mobius from "../assets/portfolio/MobiusFeature.jpg";
 export default {
@@ -104,11 +104,11 @@ export default {
         link: "https://www.thinkingdesign.studio/portfolio/2018-idle-kingdoms/",
         img: idlekingdoms
       },
-      {
-        title: "Desert Jewels Nursery",
-        link: "https://www.desertjewelsnursery.com/",
-        img: desertjewels
-      },
+      //{
+        //title: "Desert Jewels Nursery",
+        //link: "https://www.desertjewelsnursery.com/",
+        //img: desertjewels
+      //},
       {
         title: "Quote Deck",
         link: "https://www.thinkingdesign.studio/portfolio/2016-Quote-Deck/",
