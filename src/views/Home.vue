@@ -13,8 +13,8 @@
                 v-model="slide"
               >
                 <v-carousel-item v-for="(item, i) in intro" :key="i">
-                  <h2 class="pb-2">{{ item.h }}</h2>
-                  <p class="ma-0">{{ item.p }}</p>
+                  <h2 class="pb-2">{{ item.heading }}</h2>
+                  <p class="ma-0">{{ item.paragraph }}</p>
                 </v-carousel-item>
               </v-carousel>
               <v-row>
@@ -33,7 +33,12 @@
             </div>
           </v-col>
           <v-col class="col-12 d-flex justify-left">
-            <v-img class="avatar" alt="jeremy" src="../assets/Jeremy-avatar-2.png" max-width="200" />
+            <v-img
+              class="avatar"
+              alt="jeremy"
+              src="../assets/Jeremy-avatar-2.png"
+              max-width="200"
+            />
           </v-col>
         </v-row>
       </v-flex>
@@ -49,18 +54,18 @@ export default {
       slide: 0,
       intro: [
         {
-          h: "Hi, I'm Jeremy King",
-          p:
-            "I'm a frontend developer in Spokane, WA. I graduated from SFCC in 2016 with a Graphic Design AAS-T Degree. Then from Eastern Washington University in 2018 with a BA degree in Visual Communication Design. My university experience led me to explore design thinking, research, conception, ideation, communication, and, how those ideas and processes applied to creative thinking."
+          heading: "Hi, I'm Jeremy King",
+          paragraph:
+            "I am a Web Developer living in Spokane, WA who loves what they do. I graduated from SFCC in 2016 with a Graphic Design AAS-T Degree. After which, I attended Eastern Washington University where I earned my BA degree in Visual Communication Design. Being able to explore design thinking, research, conception, ideation, communication and how those ideas apply to creative thinking has been one of the best things about my educational experience",
         },
         {
-          h: "",
-          p:
-            "I've worked on a variety of projects and am currently employed in Spokane WA, as a frontend developer. I have experience with Wordpress, Shopify, Vue, React & Node. With a strong understanding of HTML, CSS, and JavaScript. I excel at problem-solving and finding a great solution. Whether that's by conducting market research, quick iteration with a framework, or executing a design with handwritten CSS/JS tailored to the issue at hand."
-        }
-      ]
+          heading: "",
+          paragraph:
+            "I'm an experienced developer with a background in frontend development. My skill set includes WordPress, Shopify, Vue, React, Node & PHP. From HTML and CSS to JS; from Design to solving problems – I'm always looking for the most efficient way out of any given situation. Whether that's by conducting market research, quick iteration with a framework, or executing a design with handwritten code tailored to the current issue.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

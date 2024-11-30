@@ -4,11 +4,17 @@
       <h3 block class="text-center pt-5 pb-10">Jeremy King</h3>
       <v-spacer></v-spacer>
       <div class="d-flex justify-center pb-8">
-        <v-img alt="jeremy" src="../assets/Jeremy-avatar-2.png" max-width="150" />
+        <v-img
+          alt="jeremy"
+          src="../assets/Jeremy-avatar-2.png"
+          max-width="150"
+        />
       </div>
       <v-spacer></v-spacer>
       <v-btn block text to="/" @click="drawer = false">home</v-btn>
-      <v-btn block text to="/portfolio" @click="drawer = false">portfolio</v-btn>
+      <v-btn block text to="/portfolio" @click="drawer = false"
+        >portfolio</v-btn
+      >
       <v-btn block text to="/resume" @click="drawer = false">resume</v-btn>
       <v-spacer></v-spacer>
       <v-list disabled>
@@ -49,22 +55,22 @@ export default {
     info: [
       {
         icon: "mdi-email",
-        text: "jeremykingdesign@gmail.com"
+        text: "me@jeremyking.dev",
       },
       {
         icon: "mdi-github",
-        text: "jeking123"
+        text: "jeking123",
       },
       {
         icon: "mdi-copyright",
-        text: "Jeremy King 2020"
+        text: "Jeremy King 2024",
       },
       {
         icon: "",
-        text: "Made with Vue and Vuetify"
-      }
-    ]
-  })
+        text: "Made with Vue and Vuetify",
+      },
+    ],
+  }),
 };
 </script>
 
