@@ -80,7 +80,7 @@ export default {
         title: "Princeton Theological Seminary",
         link: "https://ptsem.edu/",
         img: princeton,
-        tools: ["2024", "PHP", "WordPress", "Divi"],
+        tools: ["2024", "PHP", "WordPress"],
       },
       {
         title: "Palm Beach Atlantic University",
