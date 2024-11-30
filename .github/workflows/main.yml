@@ -15,6 +15,11 @@ jobs:
         node-version: [14.x, 16.x, 18.x]
 
     steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13' 
+
       - name: Checkout Code 🚚
         uses: actions/checkout@v3
 
