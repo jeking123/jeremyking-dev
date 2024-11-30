@@ -102,7 +102,7 @@ export default {
       },
       {
         title: "Mobius Discovery Center",
-        link: "https://www.mobiusdiscoverycenter.org",
+        link: "https://mobiusdiscoverycenter.org",
         img: mobius,
         tools: ["2020", "PHP", "WordPress", "Elementor"],
       },
@@ -117,14 +117,14 @@ export default {
         link:
           "https://thinkingdesign.jeremyking.dev/portfolio/2018-idle-kingdoms/",
         img: idlekingdoms,
-        tools: ["2018", "JavaScript"],
+        tools: ["2018", "JavaScript", "Vue"],
       },
       {
         title: "Quote Deck",
         link:
           "https://thinkingdesign.jeremyking.dev/portfolio/2016-Quote-Deck/",
         img: quotes,
-        tools: ["2016", "JavaSript"],
+        tools: ["2016", "JavaSript", "jQuery"],
       },
     ],
   }),
