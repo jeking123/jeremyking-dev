@@ -10,7 +10,7 @@
       <v-row>
         <v-col>
           <div class="bubble bubble-bottom-left">
-            <h1 class="mt-1">404 not found</h1>
+            <h1 class="mt-1 text-blue-grey">404 not found</h1>
             <p class="mt-4">
               Sorry, I'm not able to find what you're looking for, but here's a
               photo of a cat instead.

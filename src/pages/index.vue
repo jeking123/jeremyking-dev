@@ -17,11 +17,8 @@
               height="auto"
               class="d-flex align-center"
             >
-              <v-carousel-item
-                v-for="(item, i) in intro"
-                :key="i"
-              >
-                <h2 class="pb-2">
+              <v-carousel-item v-for="(item, i) in intro" :key="i">
+                <h2 class="pb-2 text-blue-grey">
                   {{ item.heading }}
                 </h2>
                 <p class="ma-0">
