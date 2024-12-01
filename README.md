@@ -1,30 +1,7 @@
-# jeremyking-dev
+# Jeremy King
 
-## Project setup
+[jeremyking.dev](https://jeremyking.dev)
 
-```
-use node v18.x
-npm install
-```
+Thank you for taking a look at my portfolio and taking the time to review my github. My portfolio features work across PHP & JavaScript, with technology like Vue, React, & WordPress. My projects are spread across frontend development and backend development, with past roles in both areas.
 
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I'm always looking toward future opprotunities, so feel free to reach out to me at me@jeremyking.dev.
