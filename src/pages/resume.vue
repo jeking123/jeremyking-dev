@@ -2,14 +2,9 @@
   <div class="resume fill-height">
     <v-container>
       <v-row class="resume-content">
-        <v-col
-          md="7"
-          sm="7"
-        >
+        <v-col md="7" sm="7">
           <div class="headline">
-            <h1 class="mb-6">
-              Hello,
-            </h1>
+            <h1 class="mb-6">Hello,</h1>
             <p>
               Thank you for stopping by. I'm always looking to meet local
               professionals, or talk about new opportunities. I've spent the
@@ -20,15 +15,9 @@
             <p>~ Jeremy King</p>
           </div>
           <div class="pt-6">
-            <h3 class="mb-2">
-              Work History:
-            </h3>
+            <h3 class="mb-2">Work History:</h3>
             <v-divider class="pb-3" />
-            <div
-              v-for="(work, i) in work"
-              :key="i"
-              class="pb-4"
-            >
+            <div v-for="(work, i) in work" :key="i" class="pb-4">
               <div class="font-weight-bold">
                 {{ work.position }}
               </div>
@@ -50,34 +39,19 @@
             </div>
           </div>
         </v-col>
-        <v-col
-          md="5"
-          sm="5"
-        >
-          <h3 class="mb-2">
-            Things I have experience with:
-          </h3>
+        <v-col md="5" sm="5">
+          <h3 class="mb-2">Things I have experience with:</h3>
           <div class="d-flex flex-wrap">
-            <v-card
-              v-for="(card, i) in tags"
-              :key="i"
-              class="ma-1"
-              outlined
-            >
+            <v-card v-for="(card, i) in tags" :key="i" class="ma-1" outlined>
               <v-card-text class="pa-2">
                 {{ card }}
               </v-card-text>
             </v-card>
           </div>
           <div class="pt-6">
-            <h3 class="mb-2">
-              My Education:
-            </h3>
+            <h3 class="mb-2">My Education:</h3>
             <v-divider />
-            <div
-              v-for="(edu, i) in education"
-              :key="i"
-            >
+            <div v-for="(edu, i) in education" :key="i">
               <div class="pt-2 font-weight-bold">
                 {{ edu.place }}
               </div>
@@ -180,7 +154,7 @@ export default {
       },
       {
         place: "SFCC Wire Harp",
-        position: "Assitant Graphic Designer",
+        position: "Assistant Graphic Designer",
         location: "Spokane, WA",
         start: "Sep 2015",
         end: "May 2016",
