@@ -279,7 +279,7 @@ export default {
       {
         title: "China Dragon Menu",
         description: "Restaurant menu design for local chinese restaurant.",
-        link: "https://www.chinar.com/",
+        link: "https://chinadragonspokane.com/",
         tools: ["Illustrator"],
         img: chinaDragon,
         year: "2020",
@@ -346,7 +346,7 @@ export default {
         title: "Wireharp Book",
         description:
           "Design and layout for WireHarp Creative Lit book for SFCC.",
-        link: "https://www.wireharp.com/",
+        link: "https://sfccdesign.com/wireharp/",
         tools: ["InDesign"],
         img: wireharp,
         year: "2016",
