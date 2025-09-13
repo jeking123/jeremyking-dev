@@ -98,10 +98,10 @@ import princeton from "../assets/portfolio/princeton-seminary-home.jpg";
 // Design Images
 import ultimateFlaps from "../assets/portfolio/design/ultimateflaps-home.png";
 import mobiusDesign from "../assets/portfolio/design/mobius-home.png";
-import tempest from "../assets/portfolio/design/tempest-poster.png";
+import tempest from "../assets/portfolio/design/Tempest-poster.png";
 import avenueQ from "../assets/portfolio/design/avenue-q-poster.png";
 import garbage from "../assets/portfolio/design/garbage-gyre.png";
-import heathers from "../assets/portfolio/design/heathers-poster.png";
+import heathers from "../assets/portfolio/design/Heathers-poster.png";
 import recoveringTheClassics from "../assets/portfolio/design/recovering-the-classics-king-arthur.png";
 import chinaDragon from "../assets/portfolio/design/china-dragon-menu.jpg";
 import takaosan from "../assets/portfolio/design/takaosan-poster.jpg";
