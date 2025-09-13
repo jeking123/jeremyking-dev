@@ -49,12 +49,12 @@ export default {
         {
           heading: "Hi, I'm Jeremy King",
           paragraph:
-            "I am a Web Developer living in Spokane, WA who loves what they do. I graduated from SFCC in 2016 with a Graphic Design AAS-T Degree. After which, I attended Eastern Washington University where I earned my BA degree in Visual Communication Design. Being able to explore design thinking, research, conception, ideation, communication and how those ideas apply to creative thinking has been one of the best things about my educational experience.",
+            "I’m a developer who specializes in bridging design and development to build fast, accessible, and visually polished websites. My work centers on transforming thoughtful design into robust code, creating digital experiences that balance aesthetics with performance and usability. My focus is to help organizations with custom WordPress themes, React applications, and performance-optimized solutions. I focus on the best approach to development for my clients, delivering sites that are flexible for editors while staying lightweight and future-ready.",
         },
         {
           heading: "Thanks for stoping by!",
           paragraph:
-            "I'm an experienced developer with a background in frontend development. My skill set includes WordPress, Shopify, Vue, React, Node & PHP. From HTML and CSS to JS; from Design to solving problems – I'm always looking for the most efficient way out of any given situation. Whether that's by conducting market research, quick iteration with a framework, or executing a design with handwritten code tailored to the current issue.",
+            "I’ve collaborated with universities, nonprofits, start-ups, and small businesses, giving me experience across theme and plugin development, SEO, automation, and full-stack applications. Beyond client work, I explore the creative side of design and development through indie game projects and interactive tools that combine storytelling with technology. Outside of work, you’ll often find me playing D&D, experimenting with new game concepts, out on a disc golf course, or tinkering with fresh ideas that bring design and code together.",
         },
       ],
       portfolioContent: {

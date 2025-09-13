@@ -30,7 +30,7 @@
                   <v-icon>mdi-map-marker</v-icon>
                   {{ work.location }}
                 </div>
-                <div class="pr-2 body-2">
+                <div class="pr-2 body-2 pb-3">
                   <v-icon>mdi-calendar</v-icon>
                   {{ work.start }} to {{ work.end }}
                 </div>
@@ -40,7 +40,7 @@
           </div>
         </v-col>
         <v-col md="5" sm="5">
-          <h3 class="mb-2">Things I have experience with:</h3>
+          <h3 class="mb-3">Things I have experience with:</h3>
           <div class="d-flex flex-wrap">
             <v-card v-for="(card, i) in tags" :key="i" class="ma-1" outlined>
               <v-card-text class="pa-2">
@@ -49,13 +49,13 @@
             </v-card>
           </div>
           <div class="pt-6">
-            <h3 class="mb-2">My Education:</h3>
+            <h3 class="mb-3">My Education:</h3>
             <v-divider />
             <div v-for="(edu, i) in education" :key="i">
-              <div class="pt-2 font-weight-bold">
+              <div class="pt-3 font-weight-bold">
                 {{ edu.place }}
               </div>
-              <div class="pb-2">
+              <div class="pb-3">
                 <div>
                   <span class="font-italic">
                     Graduated in {{ edu.grad }} with a

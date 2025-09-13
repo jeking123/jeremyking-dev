@@ -1,46 +1,24 @@
 <template>
   <div>
-    <v-toolbar
-      flat
-      color="white"
-      class="pa-5"
-    >
+    <v-toolbar flat color="white" class="pa-5">
       <v-container>
         <v-row>
           <v-toolbar-title class="d-flex align-center">
             <a href="/">
-              <img
-                src="../assets/logo.svg"
-                width="40px"
-              >
+              <img src="../assets/logo.svg" width="40px" />
             </a>
           </v-toolbar-title>
           <v-spacer />
-          <v-btn
-            icon
-            @click.stop="drawer = !drawer"
-          >
-            <v-icon v-if="!drawer">
-              mdi-menu
-            </v-icon>
-            <v-icon v-else>
-              mdi-close
-            </v-icon>
+          <v-btn icon @click.stop="drawer = !drawer">
+            <v-icon v-if="!drawer"> mdi-menu </v-icon>
+            <v-icon v-else> mdi-close </v-icon>
           </v-btn>
         </v-row>
       </v-container>
     </v-toolbar>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      temporary
-    >
-      <h3
-        block
-        class="text-center pt-5 pb-10"
-      >
-        Jeremy King
-      </h3>
+    <v-navigation-drawer v-model="drawer" temporary>
+      <h3 block class="text-center pt-5 pb-10">Jeremy King</h3>
       <v-spacer />
       <div class="d-flex justify-center pb-8">
         <v-img
@@ -50,35 +28,13 @@
         />
       </div>
       <v-spacer />
-      <v-btn
-        block
-        text
-        to="/"
-        @click="drawer = false"
-      >
-        home
-      </v-btn>
-      <v-btn
-        block
-        text
-        to="/portfolio"
-        @click="drawer = false"
-      >
-        portfolio
-      </v-btn>
-      <v-btn
-        block
-        text
-        to="/resume"
-        @click="drawer = false"
-      >
-        resume
-      </v-btn>
+      <template v-for="item in navigation" :key="item.title">
+        <v-btn block text :to="item.to" @click="drawer = false">
+          {{ item.title }}
+        </v-btn>
+      </template>
       <v-spacer />
-      <v-list
-        disabled
-        :items="items"
-      />
+      <v-list disabled :items="items" />
     </v-navigation-drawer>
   </div>
 </template>
@@ -117,6 +73,28 @@ export default {
       //     prependIcon: "",
       //   },
       // },
+    ],
+    navigation: [
+      {
+        title: "home",
+        to: "/",
+      },
+      {
+        title: "portfolio",
+        to: "/portfolio",
+      },
+      {
+        title: "design",
+        to: "/design",
+      },
+      {
+        title: "Archive",
+        to: "/archive",
+      },
+      {
+        title: "resume",
+        to: "/resume",
+      },
     ],
   }),
   watch: {
