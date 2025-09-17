@@ -16,7 +16,7 @@
 
     <v-row justify="center" class="mt-6 mb-4">
       <v-col cols="auto">
-        <v-btn to="/archive" variant="tonal">View All Projects</v-btn>
+        <v-btn to="/archive" variant="tonal">View All Work</v-btn>
       </v-col>
     </v-row>
   </div>

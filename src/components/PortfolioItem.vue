@@ -75,9 +75,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-// import Accordion from "../components/Accordion/Accordion.vue";
-
 defineProps({
   location: { type: String, default: "home" },
   title: String,

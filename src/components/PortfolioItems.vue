@@ -82,7 +82,6 @@
 <script>
 // Components
 import PortfolioItem from "../components/PortfolioItem";
-import Archive from "../components/Archive";
 
 // Web Images
 import quotes from "../assets/portfolio/quote-deck.jpg";
@@ -189,7 +188,7 @@ export default {
         year: "2018",
         tools: ["Design", "JavaScript", "Vue"],
         description:
-          "Created a browser-based incremental game using Vue.js as a personal project to expand coding skills. Players manage resources and workers to grow and expand a medieval kingdom.",
+          "Created a browser-based incremental game using Vue.js as a personal project to expand my coding skills. Players manage resources and workers to grow and expand a medieval kingdom.",
         agency: "Personal",
       },
       {
@@ -207,7 +206,7 @@ export default {
         link: "https://thinkingdesign.jeremyking.dev/portfolio/2016-Quote-Deck/",
         img: quotes,
         year: "2016",
-        tools: ["Design", "JavaScript", "jQuery"],
+        tools: ["Illustrator", "JavaScript", "jQuery"],
         description:
           "Built a creative digital business card concept where users can flip through a virtual deck of playing cards, each featuring a unique quote alongside personal contact information.",
         agency: "Personal",
@@ -229,7 +228,7 @@ export default {
         link: "/",
         img: princeton,
         year: "2020",
-        tools: ["Design", "React", "node.js", "Express", "MongoDB"],
+        tools: ["Design", "React", "Node.js", "Express", "MongoDB"],
         description:
           "Transportation mangement app for to modernize delivery process from paper to digital tracking and scanning of packages.",
         agency: "ScannedMedia",
@@ -239,9 +238,18 @@ export default {
         link: "https://www.ultimatetruck.com",
         img: "ultimateTruck",
         year: "2022",
-        tools: ["PHP", "WordPress", "DIVI"],
+        tools: ["PHP", "WordPress", "Divi"],
         description:
           "Design Implementation for Ultimate Truck using the divi builder.",
+        agency: "Brand It Advertising",
+      },
+      {
+        title: "Ultimate Flaps",
+        link: "https://ultimateflaps.com",
+        img: ultimateFlaps,
+        year: "2021",
+        tools: ["PHP", "WordPress", "WooCommerce"],
+        description: "Web store implementation for Ultimate Flaps.",
         agency: "Brand It Advertising",
       },
       {
@@ -249,9 +257,9 @@ export default {
         link: "https://www.spokanevalleyfire.org",
         img: "spokaneValleyFire",
         year: "2022",
-        tools: ["PHP", "WordPress", "Divi"],
+        tools: ["PHP", "WordPress"],
         description:
-          "Implemented website design in divi for Spokane Valley Fire Department.",
+          "Implemented website design for Spokane Valley Fire Department.",
         agency: "Brand It Advertising",
       },
     ],
@@ -261,7 +269,7 @@ export default {
         link: "https://ultimateflaps.com",
         img: ultimateFlaps,
         year: "2021",
-        tools: ["Design", "Adobe XD", "Photoshop"],
+        tools: ["Adobe XD", "Photoshop"],
         description:
           "Fresh website design for Ultimate Flaps custom mudflaps for trucks and vehicles.",
         agency: "Brand It Advertising",
@@ -286,16 +294,6 @@ export default {
         agency: "ScannedMedia",
       },
       {
-        title: "Tempest Theatre Poster",
-        description:
-          "Poster design for Eastern Washington University Theatre's production of The Tempest.",
-        link: "https://www.ewu.edu/news/qa-with-the-tempest-director-jeff-sanders/",
-        tools: ["Illustrator"],
-        img: tempest,
-        year: "2018",
-        agency: "Eastern Washington University Theatre",
-      },
-      {
         title: "Avenue Q Poster",
         description:
           "Poster design for Eastern Washington University Theatre's production of Avenue Q.",
@@ -306,8 +304,36 @@ export default {
         agency: "Eastern Washington University Theatre",
       },
       {
+        title: "Recovering the Classics Poster",
+        description: "Designed a poster for Recovering the Classics.",
+        link: "https://creativeaction.network/products/king-arthur-and-the-knights-of-the-round-table-by-jeremy-king",
+        tools: ["Illustrator"],
+        img: recoveringTheClassics,
+        year: "2018",
+        agency: "Creative Action Network",
+      },
+      {
+        title: "Takaosan Poster",
+        description: "Designed a poster for Takaosan.",
+        link: "/",
+        tools: ["Illustrator"],
+        img: takaosan,
+        year: "2018",
+        agency: "Undergrad",
+      },
+      {
+        title: "Tempest Theatre Poster",
+        description:
+          "Poster design for Eastern Washington University Theatre's production of The Tempest.",
+        link: "https://www.ewu.edu/news/qa-with-the-tempest-director-jeff-sanders/",
+        tools: ["Illustrator"],
+        img: tempest,
+        year: "2017",
+        agency: "Eastern Washington University Theatre",
+      },
+      {
         title: "Garbage Gyre Poster",
-        description: "Awareness poster for Pacific Garbage Gyre.",
+        description: "Awareness poster of the Pacific Garbage Gyre.",
         link: "/",
         tools: ["Illustrator"],
         img: garbage,
@@ -325,27 +351,9 @@ export default {
         agency: "Eastern Washington University Theatre",
       },
       {
-        title: "Recovering the Classics Poster",
-        description: "Designed a poster for Recovering the Classics.",
-        link: "https://creativeaction.network/products/king-arthur-and-the-knights-of-the-round-table-by-jeremy-king",
-        tools: ["Illustrator"],
-        img: recoveringTheClassics,
-        year: "2018",
-        agency: "Creative Action Network",
-      },
-      {
-        title: "Takaosan Poster",
-        description: "Designed a poster for Takaosan.",
-        link: "https://www.takaosan.com/",
-        tools: ["Illustrator"],
-        img: takaosan,
-        year: "2018",
-        agency: "Undergrad",
-      },
-      {
         title: "Wireharp Book",
         description:
-          "Design and layout for WireHarp Creative Lit book for SFCC.",
+          "Design and layout for 2016 WireHarp Creative Lit book for SFCC.",
         link: "https://sfccdesign.com/wireharp/",
         tools: ["InDesign"],
         img: wireharp,
